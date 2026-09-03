@@ -1,0 +1,6 @@
+{
+  "name": "Sechel Consulting",
+  "description": "Cabinet international de conseil en stratégie, structuration de filières solaires hors-réseau, conformité OHADA/ARSP et logistique dernier kilomètre en RDC et Afrique subsaharienne.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
