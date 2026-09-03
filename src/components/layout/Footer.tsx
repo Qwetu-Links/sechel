@@ -235,14 +235,7 @@ export const Footer: React.FC = () => {
             >
               {language === 'fr' ? 'Prendre Rendez-vous' : 'Consultation'}
             </button>
-            <button
-              id="footer-admin-link"
-              onClick={() => setCurrentPage('admin')}
-              className="flex items-center gap-1 text-amber-400 hover:text-amber-300 font-bold"
-            >
-              <ShieldCheck className="w-3.5 h-3.5" />
-              <span>WP Admin CMS</span>
-            </button>
+
           </div>
         </div>
       </div>

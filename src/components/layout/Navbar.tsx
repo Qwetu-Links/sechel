@@ -113,25 +113,7 @@ export const Navbar: React.FC = () => {
               </button>
             </div>
 
-            {/* WP Admin Portal Quick Link */}
-            <button
-              id="nav-admin-portal-button"
-              onClick={() => handleNavClick('admin')}
-              className={`flex items-center gap-1.5 px-2.5 py-0.5 rounded text-[11px] font-semibold transition-all ${
-                currentPage === 'admin'
-                  ? 'bg-amber-500 text-slate-900 font-bold'
-                  : 'bg-slate-800 text-slate-300 hover:bg-slate-700 hover:text-white'
-              }`}
-              title="Interface Admin CMS & SEO"
-            >
-              <ShieldCheck className="w-3.5 h-3.5 text-amber-400" />
-              <span>WP Admin</span>
-              {newLeadsCount > 0 && (
-                <span className="w-4 h-4 rounded-full bg-red-500 text-white text-[10px] flex items-center justify-center font-bold">
-                  {newLeadsCount}
-                </span>
-              )}
-            </button>
+
           </div>
         </div>
       </div>
@@ -250,21 +232,6 @@ export const Navbar: React.FC = () => {
               })}
 
               <div className="pt-3 mt-2 border-t border-slate-100 flex flex-col gap-2">
-                <button
-                  onClick={() => handleNavClick('admin')}
-                  className="flex items-center justify-between px-4 py-2.5 rounded-lg bg-amber-50 border border-amber-200 text-amber-900 text-sm font-semibold"
-                >
-                  <div className="flex items-center gap-2">
-                    <ShieldCheck className="w-4 h-4 text-amber-600" />
-                    <span>Espace Admin CMS & SEO</span>
-                  </div>
-                  {newLeadsCount > 0 && (
-                    <span className="px-2 py-0.5 rounded-full bg-red-500 text-white text-xs">
-                      {newLeadsCount} new
-                    </span>
-                  )}
-                </button>
-
                 <button
                   onClick={() => handleNavClick('contact')}
                   className="w-full flex items-center justify-center gap-2 py-3 rounded-lg bg-blue-600 text-white text-sm font-bold shadow-md hover:bg-blue-700 transition-colors"

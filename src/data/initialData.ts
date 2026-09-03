@@ -1,6 +1,8 @@
 import { CaseStudy, ServiceItem, BlogPost, Testimonial, ContactSubmission, SEOSettings } from '../types';
 import ecoflowProjectImage from '../components/img/555111457_122144848148860707_3377347782451543940_n.jpg';
 import confortProjectImage from '../components/img/542716549_122140304324860707_5218000447467699572_n.jpg';
+import hetaProjectImage from '../components/img/heta_project.png';
+import sunKingProjectImage from '../components/img/images.jpg';
 
 export const COMPANY_INFO = {
   name: 'Sechel Consulting',
@@ -397,7 +399,7 @@ export const INITIAL_CASE_STUDIES: CaseStudy[] = [
       }
     ],
     partners: ['USAID', 'Orange', 'Sun King', 'Heta'],
-    heroImage: 'https://images.unsplash.com/photo-1576091160550-2173dba999ef?auto=format&fit=crop&w=1400&q=80',
+    heroImage: hetaProjectImage,
     gallery: [
       'https://images.unsplash.com/photo-1584515979956-d9f6e5d09982?auto=format&fit=crop&w=800&q=80',
       'https://images.unsplash.com/photo-1532938911079-1b06ac7ceec7?auto=format&fit=crop&w=800&q=80'
@@ -458,7 +460,7 @@ export const INITIAL_CASE_STUDIES: CaseStudy[] = [
       }
     ],
     partners: ['Sun King', 'Orange Money', 'MTN MoMo', 'Vodacom'],
-    heroImage: 'https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=1400&q=80',
+    heroImage: sunKingProjectImage,
     gallery: [
       'https://images.unsplash.com/photo-1577495508048-b635879837f1?auto=format&fit=crop&w=800&q=80',
       'https://images.unsplash.com/photo-1497366216548-37526070297c?auto=format&fit=crop&w=800&q=80'

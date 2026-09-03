@@ -48,7 +48,7 @@ interface AppContextType {
 const AppContext = createContext<AppContextType | undefined>(undefined);
 
 const STORAGE_KEYS = {
-  PROJECTS: 'sechel_projects_v3',
+  PROJECTS: 'sechel_projects_v5',
   BLOG: 'sechel_blog_v1',
   TESTIMONIALS: 'sechel_testimonials_v1',
   SUBMISSIONS: 'sechel_submissions_v1',
